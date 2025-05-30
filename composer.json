@@ -1,0 +1,20 @@
+{
+    "name": "mitsu200/teb-chan",
+    "description": "Forum obrazkowe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mitsu200\\TebChan\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateusz Kwiatkowski",
+            "email": "mateusz.kwiatkowski3teb.edu.pl"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "smarty/smarty": "^5.4"
+    }
+}
